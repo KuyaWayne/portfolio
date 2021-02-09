@@ -58,6 +58,7 @@ a:hover {
 
 #contact-area, #about-area {
 	margin-top: 70px;
+	margin-bottom: 70px;
 }
 
 #foot-note {
@@ -83,4 +84,18 @@ a:hover {
 #bio {
 	padding: 1em;
 	text-align: justify;
+}
+
+.mapouter {
+	width: 100;
+}
+
+#gmap_canvas {
+	padding: 1em;
+	height: 250px;
+	width: 100%;
+}
+
+#embedded-map {
+	margin-top: 1em;
 }
