@@ -31,6 +31,18 @@ body {
 	font-weight: bold;
 }
 
+#portfolio {
+	margin-bottom: 70px;
+}
+
+#contact-area {
+	margin-top: 70px;
+}
+
+#foot-note {
+	margin: 10px;
+}
+
 .bg-black {
 	background-color: #000000;
 }
