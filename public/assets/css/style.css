@@ -8,12 +8,32 @@ body {
 	background-color: #000000;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 .text-shadow {
 	text-shadow: 1px 1px 15px rgba(0, 0, 0, 1);
 }
 
 .box-shadow {
 	box-shadow: 1px 1px 10px #05F2C7;
+}
+
+.bg-black {
+	background-color: #000000;
+}
+
+.outer-glow {
+	box-shadow: 1px 1px 10px #05F2C7;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.no-padding {
+	padding: 0;
 }
 
 #header-area {
@@ -43,10 +63,14 @@ body {
 	margin: 10px;
 }
 
-.bg-black {
-	background-color: #000000;
+#facebook {
+	color: blue;
 }
 
-.outer-glow {
-	box-shadow: 1px 1px 10px #05F2C7;
+#instagram {
+	color: pink;
+}
+
+#twitter {
+	color: skyblue;
 }
