@@ -13,7 +13,7 @@ body {
 }
 
 .box-shadow {
-	box-shadow: 1px 1px 10px #ffffff;
+	box-shadow: 1px 1px 10px #05F2C7;
 }
 
 #header-area {
@@ -48,5 +48,5 @@ body {
 }
 
 .outer-glow {
-	box-shadow: 1px 1px 10px #ffffff;
+	box-shadow: 1px 1px 10px #05F2C7;
 }
