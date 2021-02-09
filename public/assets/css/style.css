@@ -13,12 +13,32 @@ a:hover {
 	text-decoration: none;
 }
 
+@keyframes color-switch-rgb {
+	0% {
+		box-shadow: 1px 1px 15px rgba(255, 0, 0, 1);
+	}
+
+	25% {
+		box-shadow: 1px 1px 15px rgba(0, 255, 0, 1);
+	}
+
+	50% {
+		box-shadow: 1px 1px 15px rgba(0, 0, 255, 1);
+	}
+
+	75% {
+		box-shadow: 1px 1px 15px rgba(255, 255, 255, 1);
+	}
+}
+
 .text-shadow {
+	/*animation: color-switch-rgb 10s infinite*/
 	text-shadow: 1px 1px 15px rgba(0, 0, 0, 1);
 }
 
 .box-shadow {
-	box-shadow: 1px 1px 10px #05F2C7;
+	animation: color-switch-rgb 10s infinite
+	/*box-shadow: 1px 1px 10px #05F2C7;*/
 }
 
 .bg-black {
@@ -26,7 +46,8 @@ a:hover {
 }
 
 .outer-glow {
-	box-shadow: 1px 1px 10px #05F2C7;
+	animation: color-switch-rgb 10s infinite
+	/*box-shadow: 1px 1px 10px #05F2C7;*/
 }
 
 .no-margin {
