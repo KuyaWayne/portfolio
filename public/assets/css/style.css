@@ -29,6 +29,10 @@ a:hover {
 	75% {
 		box-shadow: 1px 1px 15px rgba(255, 255, 255, 1);
 	}
+
+	100% {
+		box-shadow: 1px 1px 15px rgba(255, 0, 0, 1);
+	}
 }
 
 .text-shadow {
@@ -37,7 +41,7 @@ a:hover {
 }
 
 .box-shadow {
-	animation: color-switch-rgb 10s infinite
+	animation: color-switch-rgb 20s infinite
 	/*box-shadow: 1px 1px 10px #05F2C7;*/
 }
 
@@ -46,7 +50,7 @@ a:hover {
 }
 
 .outer-glow {
-	animation: color-switch-rgb 10s infinite
+	animation: color-switch-rgb 20s infinite
 	/*box-shadow: 1px 1px 10px #05F2C7;*/
 }
 
