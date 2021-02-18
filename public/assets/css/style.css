@@ -39,12 +39,12 @@ a:hover {
 	height: 100%;
 }
 
-.text-shadow {
+.rgb-shadow {
 	/*animation: color-switch-rgb 10s infinite*/
 	text-shadow: 1px 1px 15px rgba(0, 0, 0, 1);
 }
 
-.box-shadow {
+.rgb-shadow {
 	animation: color-switch-rgb 20s infinite
 	/*box-shadow: 1px 1px 10px #05F2C7;*/
 }
@@ -64,6 +64,10 @@ a:hover {
 
 .no-padding {
 	padding: 0;
+}
+
+.mapouter {
+	width: 100;
 }
 
 #header-area {
@@ -106,6 +110,15 @@ a:hover {
 	color: skyblue;
 }
 
+#about-area {
+    background-image: url('../images/wide-wayne.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
 #about-photo-card {
 	width: 90%;
 }
@@ -113,10 +126,6 @@ a:hover {
 #bio {
 	padding: 1em;
 	text-align: justify;
-}
-
-.mapouter {
-	width: 100;
 }
 
 #gmap_canvas {
@@ -128,3 +137,4 @@ a:hover {
 #embedded-map {
 	margin-top: 1em;
 }
+
