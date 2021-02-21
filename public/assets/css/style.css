@@ -35,7 +35,7 @@ a:hover {
 	}
 }
 
-.card {
+.uniform-height {
 	height: 100%;
 }
 
@@ -110,14 +110,14 @@ a:hover {
 	color: skyblue;
 }
 
-#about-area {
+/*#about-area {
     background-image: url('../images/wide-wayne.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-}
+}*/
 
 #about-photo-card {
 	width: 90%;
