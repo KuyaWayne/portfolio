@@ -1,3 +1,11 @@
+:root {
+    --scheme-1: #000000;
+    --scheme-2: #707070;
+    --scheme-3: #F0F0F0;
+    --scheme-4: #363636;
+    --scheme-5: #D6D6D6;
+}
+
 * {
 	font-family: 'Source Sans Pro', sans-serif;
 	margin: 0;
@@ -6,11 +14,11 @@
 }
 
 body {
-	background-color: #000000;
+	background-color: var(--scheme-1);
 }
 
 a:hover {
-	text-decoration: none;
+	color: black;
 }
 
 @keyframes color-switch-rgb {
@@ -35,27 +43,80 @@ a:hover {
 	}
 }
 
+.text-shadow {
+    text-shadow: 1px 1px 15px #000000;
+}
+
+.color-scheme-1 {
+    background-color: var(--scheme-1);
+}
+
+.color-scheme-2 {
+    background-color: var(--scheme-2);
+}
+
+.color-scheme-3 {
+    background-color: var(--scheme-3);
+}
+
+.color-scheme-4 {
+    background-color: var(--scheme-4);
+}
+
+.color-scheme-5 {
+    background-color: var(--scheme-5);
+}
+
+.responsive-text-1 {
+    font-size: 1vw;
+}
+
+.responsive-text-2 {
+    font-size: 2vw;
+}
+
+.responsive-text-3 {
+    font-size: 3vw;
+}
+
+.responsive-text-4 {
+    font-size: 4vw;
+}
+
+.responsive-text-5 {
+    font-size: 5vw;
+}
+
+.responsive-text-6 {
+    font-size: 6vw;
+}
+
+.responsive-text-7 {
+    font-size: 7vw;
+}
+
+.responsive-text-8 {
+    font-size: 8vw;
+}
+
+.responsive-text-9 {
+    font-size: 9vw;
+}
+
+.responsive-text-10 {
+    font-size: 10vw;
+}
+
 .uniform-height {
 	height: 100%;
 }
 
-.rgb-shadow {
-	/*animation: color-switch-rgb 10s infinite*/
+.rgb-text-shadow {
 	text-shadow: 1px 1px 15px rgba(0, 0, 0, 1);
 }
 
-.rgb-shadow {
-	animation: color-switch-rgb 20s infinite
-	/*box-shadow: 1px 1px 10px #05F2C7;*/
-}
-
-.bg-black {
-	background-color: #000000;
-}
-
-.outer-glow {
-	animation: color-switch-rgb 20s infinite
-	/*box-shadow: 1px 1px 10px #05F2C7;*/
+.rgb-box-shadow {
+	animation: color-switch-rgb 20s infinite;
 }
 
 .no-margin {
@@ -68,6 +129,10 @@ a:hover {
 
 .mapouter {
 	width: 100;
+}
+
+.smoothen-edge {
+    border-radius: 20px;
 }
 
 #header-area {
@@ -109,15 +174,6 @@ a:hover {
 #twitter {
 	color: skyblue;
 }
-
-/*#about-area {
-    background-image: url('../images/wide-wayne.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-}*/
 
 #about-photo-card {
 	width: 90%;
