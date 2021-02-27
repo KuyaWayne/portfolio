@@ -171,6 +171,14 @@ a:hover {
     box-shadow: 1px 1px 15px rgba(255, 255, 255, 1);
 }
 
+.hobbie-icons {
+    width: 250px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
 #header-area {
 	height: 100vh;
 	background-image: url('../images/wayne.jpg');
@@ -228,4 +236,8 @@ a:hover {
 
 #embedded-map {
 	margin-top: 1em;
+}
+
+#graduation-photo {
+    width: 250px;
 }
