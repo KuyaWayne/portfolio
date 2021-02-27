@@ -135,6 +135,42 @@ a:hover {
     border-radius: 20px;
 }
 
+.border-curve-top-right {
+    border-top-right-radius: 20px;
+}
+
+.border-curve-top-left {
+    border-top-left-radius: 20px;
+}
+
+.border-curve-bottom-right {
+    border-bottom-right-radius: 20px;
+}
+
+.border-curve-bottom-left {
+    border-bottom-left-radius: 20px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.no-border {
+    border: 0px;
+}
+
+.card {
+    border: 0px;
+}
+
+.card-header:first-child {
+    border-top-right-radius: 20px;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 15px rgba(255, 255, 255, 1);
+}
+
 #header-area {
 	height: 100vh;
 	background-image: url('../images/wayne.jpg');
