@@ -131,7 +131,7 @@ a:hover {
 	width: 100;
 }
 
-.smoothen-edge {
+.border-curve-all {
     border-radius: 20px;
 }
 
@@ -193,4 +193,3 @@ a:hover {
 #embedded-map {
 	margin-top: 1em;
 }
-
