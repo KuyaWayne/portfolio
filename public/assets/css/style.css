@@ -43,6 +43,28 @@ a:hover {
 	}
 }
 
+@keyframes text-color-switch-rgb {
+	0% {
+		color: rgba(255, 0, 0, 1);
+	}
+
+	25% {
+		color: rgba(0, 255, 0, 1);
+	}
+
+	50% {
+		color: rgba(0, 0, 255, 1);
+	}
+
+	75% {
+		color: rgba(255, 255, 255, 1);
+	}
+
+	100% {
+		color: rgba(255, 0, 0, 1);
+	}
+}
+
 .text-shadow {
     text-shadow: 1px 1px 15px #000000;
 }
@@ -116,7 +138,11 @@ a:hover {
 }
 
 .rgb-box-shadow {
-	animation: color-switch-rgb 20s infinite;
+	animation: color-switch-rgb 60s infinite;
+}
+
+.rgb-font-color {
+    animation: text-color-switch-rgb 60s infinite;
 }
 
 .no-margin {
@@ -181,10 +207,11 @@ a:hover {
 
 #header-area {
 	height: 100vh;
-	background-image: url('../images/wayne.jpg');
+	background-image: url('../images/cinematic-shot.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+    background-attachment: fixed;
 	display: flex;
 	align-items: center;
 	margin-bottom: 0;
