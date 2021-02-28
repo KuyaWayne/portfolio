@@ -17,6 +17,13 @@
     --metro-8: #1d1d1d;
     --metro-9: #00aba9;
     --metro-10: #eff4ff;
+    --metro-11: #2d89ef;
+    --metro-12: #2b5797;
+    --metro-13: #ffc40d;
+    --metro-14: #e3a21a;
+    --metro-15: #da532c;
+    --metro-16: #ee1111;
+    --metro-17: #b91d47;
 }
 
 * {
@@ -28,6 +35,7 @@
 
 body {
 	background-color: var(--scheme-1);
+/*    animation: bg-color-switch-rgb 100s infinite;*/
 }
 
 a:hover {
@@ -36,30 +44,65 @@ a:hover {
 
 @keyframes color-switch-rgb {
 	0% { box-shadow: 1px 1px 15px var(--metro-1); }
-	10% { box-shadow: 1px 1px 15px var(--metro-2); }
-	20% { box-shadow: 1px 1px 15px var(--metro-3); }
-	30% { box-shadow: 1px 1px 15px var(--metro-4); }
-	40% { box-shadow: 1px 1px 15px var(--metro-5); }
-	50% { box-shadow: 1px 1px 15px var(--metro-6); }
-	60% { box-shadow: 1px 1px 15px var(--metro-7); }
-	70% { box-shadow: 1px 1px 15px var(--metro-8); }
-	80% { box-shadow: 1px 1px 15px var(--metro-9); }
-	90% { box-shadow: 1px 1px 15px var(--metro-10); }
+	6% { box-shadow: 1px 1px 15px var(--metro-2); }
+	12% { box-shadow: 1px 1px 15px var(--metro-3); }
+	18% { box-shadow: 1px 1px 15px var(--metro-4); }
+	24% { box-shadow: 1px 1px 15px var(--metro-5); }
+	30% { box-shadow: 1px 1px 15px var(--metro-6); }
+	36% { box-shadow: 1px 1px 15px var(--metro-7); }
+	42% { box-shadow: 1px 1px 15px var(--metro-8); }
+	48% { box-shadow: 1px 1px 15px var(--metro-9); }
+	54% { box-shadow: 1px 1px 15px var(--metro-10); }
+	60% { box-shadow: 1px 1px 15px var(--metro-11); }
+	66% { box-shadow: 1px 1px 15px var(--metro-12); }
+	72% { box-shadow: 1px 1px 15px var(--metro-13); }
+	78% { box-shadow: 1px 1px 15px var(--metro-14); }
+	84% { box-shadow: 1px 1px 15px var(--metro-15); }
+	90% { box-shadow: 1px 1px 15px var(--metro-16); }
+	96% { box-shadow: 1px 1px 15px var(--metro-17); }
 	100% { box-shadow: 1px 1px 15px var(--metro-1); }
 }
 
 @keyframes text-color-switch-rgb {
 	0% { color: var(--metro-1); }
-	10% { color: var(--metro-2); }
-	20% { color: var(--metro-3); }
-	30% { color: var(--metro-4); }
-	40% { color: var(--metro-5); }
-	50% { color: var(--metro-6); }
-	60% { color: var(--metro-7); }
-	70% { color: var(--metro-8); }
-	80% { color: var(--metro-9); }
-	90% { color: var(--metro-10); }
+	6% { color: var(--metro-2); }
+	12% { color: var(--metro-3); }
+	18% { color: var(--metro-4); }
+	24% { color: var(--metro-5); }
+	30% { color: var(--metro-6); }
+	36% { color: var(--metro-7); }
+	42% { color: var(--metro-8); }
+	48% { color: var(--metro-9); }
+	54% { color: var(--metro-10); }
+	60% { color: var(--metro-11); }
+	66% { color: var(--metro-12); }
+	72% { color: var(--metro-13); }
+	78% { color: var(--metro-14); }
+	84% { color: var(--metro-15); }
+	90% { color: var(--metro-16); }
+	96% { color: var(--metro-17); }
 	100% { color: var(--metro-1); }
+}
+
+@keyframes bg-color-switch-rgb {
+	0% { background-color: var(--metro-1); }
+	6% { background-color: var(--metro-2); }
+	12% { background-color: var(--metro-3); }
+	18% { background-color: var(--metro-4); }
+	24% { background-color: var(--metro-5); }
+	30% { background-color: var(--metro-6); }
+	36% { background-color: var(--metro-7); }
+	42% { background-color: var(--metro-8); }
+	48% { background-color: var(--metro-9); }
+	54% { background-color: var(--metro-10); }
+	60% { background-color: var(--metro-11); }
+	66% { background-color: var(--metro-12); }
+	72% { background-color: var(--metro-13); }
+	78% { background-color: var(--metro-14); }
+	84% { background-color: var(--metro-15); }
+	90% { background-color: var(--metro-16); }
+	96% { background-color: var(--metro-17); }
+	100% { background-color: var(--metro-1); }
 }
 
 .text-shadow {
@@ -191,7 +234,12 @@ a:hover {
 }
 
 .card:hover {
-    box-shadow: 1px 1px 15px rgba(255, 255, 255, 1);
+/*    box-shadow: 1px 1px 15px rgba(255, 255, 255, 1);*/
+    animation: color-switch-rgb 4s infinite;
+}
+
+.nav-item:hover a {
+    animation: text-color-switch-rgb 4s infinite;
 }
 
 .hobbie-icons {
