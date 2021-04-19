@@ -51,10 +51,17 @@ footer p {
   background-color: #FFFFFF;
 }
 
+.uniform-height {
+  height: 100%;
+}
+
 .card .card-footer > a {
-  background-color: #FFFFFF;
-  color: #2D89EF;
   min-width: 100%;
+}
+
+.project-done {
+  background: #FFFFFF;
+  color: #2D89EF;
 }
 
 #myHugeFace {

@@ -51,10 +51,17 @@ footer p {
     background-color: $secondary;
 }
 
+.uniform-height {
+    height: 100%;
+}
+
 .card .card-footer > a {
-    background-color: $secondary;
-    color: $primary;
     min-width: 100%;
+}
+
+.project-done {
+    background: $secondary;
+    color: $primary;
 }
 
 #myHugeFace {
