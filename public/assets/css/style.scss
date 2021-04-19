@@ -1,0 +1,81 @@
+$primary: #2D89EF;
+$secondary: #FFFFFF;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $secondary;
+}
+
+footer {
+    background-color: $primary;
+}
+
+footer p {
+    color: white;
+    margin: 0;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.navbar {
+    background-color: $primary;
+}
+
+.card {
+    border-radius: 0;
+    background-color: $primary;
+    border-width: 0;
+    box-shadow: 5px 5px 15px black;
+}
+
+.card .card-title {
+    text-align: center;
+    color: $primary;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.card .card-body {
+    background-color: $secondary;
+}
+
+.card .card-footer > a {
+    background-color: $secondary;
+    color: $primary;
+    min-width: 100%;
+}
+
+#myHugeFace {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('./../images/cinematic-shot.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#start-portfolio h2 {
+    color: white;
+    text-align: center;
+    background-color: $primary;
+    border-radius: 25px;
+    margin: 1em 0 1em 0;
+}
+
+#myHugeFace > div {
+    color: white;
+    text-shadow: 3px 3px 5px black;
+}
+
+#myHugeFace > div > :first-child {
+    color: $primary;
+}
