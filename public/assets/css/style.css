@@ -7,8 +7,14 @@ body {
   background-color: #FFFFFF;
 }
 
+main {
+  margin-bottom: 50px;
+}
+
 footer {
   background-color: #2D89EF;
+  -webkit-box-shadow: 5px 5px 50px black;
+          box-shadow: 5px 5px 50px black;
 }
 
 footer p {
@@ -20,6 +26,8 @@ footer p {
 
 .navbar {
   background-color: #2D89EF;
+  -webkit-box-shadow: 5px 5px 50px black;
+          box-shadow: 5px 5px 50px black;
 }
 
 .card {
