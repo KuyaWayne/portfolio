@@ -55,6 +55,10 @@ footer p {
   height: 100%;
 }
 
+.img-circle {
+  border-radius: 50%;
+}
+
 .card .card-footer > a {
   min-width: 100%;
 }
