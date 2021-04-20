@@ -63,9 +63,30 @@ footer p {
   min-width: 100%;
 }
 
-.project-done {
-  background: #FFFFFF;
+.separator {
+  margin: 36px 0 36px 0;
+  padding: 1em;
+  border-radius: 20px;
+  background: #2D89EF;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.img-container img {
+  background-color: #2d2d2d;
+}
+
+.graduation-photo {
+  margin: 1em;
+}
+
+.finished-project {
+  background-color: #FFFFFF;
   color: #2D89EF;
+}
+
+#about-area {
+  margin-top: 80px;
 }
 
 #myHugeFace {
@@ -84,6 +105,10 @@ footer p {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+#techIWorkedWith {
+  margin: 1em 0 1em 0;
 }
 
 #start-portfolio h2 {
