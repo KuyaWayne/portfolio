@@ -85,6 +85,13 @@ footer p {
     color: $primary;
 }
 
+.verticalCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
 #about-area {
     margin-top: 80px;
 }
