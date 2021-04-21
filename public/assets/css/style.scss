@@ -22,6 +22,10 @@ footer p {
     padding-top: 1em;
 }
 
+a, a:hover {
+    text-decoration: none;
+}
+
 .navbar {
     background-color: $primary;
     box-shadow: 5px 5px 50px black;
@@ -86,6 +90,12 @@ footer p {
     align-items: center;
     justify-content: center;
     height: 100%;
+}
+
+.social-media-links {
+    width: 100px;
+    display: block;
+    margin: auto;
 }
 
 #portfolio {
