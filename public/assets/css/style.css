@@ -7,10 +7,6 @@ body {
   background-color: #FFFFFF;
 }
 
-main {
-  margin-bottom: 50px;
-}
-
 footer {
   background-color: #2D89EF;
   -webkit-box-shadow: 5px 5px 50px black;
@@ -98,8 +94,26 @@ footer p {
   height: 100%;
 }
 
-#about-area {
-  margin-top: 80px;
+#portfolio {
+  margin-bottom: 50px;
+}
+
+#mainContent {
+  height: 100vh;
+}
+
+.TechStack {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.TechStack > .TechStackItem {
+  width: 50px;
+  margin: 0 5px 0 5px;
 }
 
 #myHugeFace {
