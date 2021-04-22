@@ -121,9 +121,13 @@ a, a:hover {
           justify-content: center;
 }
 
-.TechStack > .TechStackItem {
+.TechStackItem {
   width: 50px;
-  margin: 0 5px 0 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: block;
+  margin: auto;
 }
 
 #myHugeFace {
