@@ -98,6 +98,11 @@ a, a:hover {
   height: 100%;
 }
 
+#startAboutPage {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
 .social-media-links {
   width: 100px;
   display: block;
@@ -141,7 +146,7 @@ a, a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   min-height: 100vh;
-  background-image: url("./../images/cinematic-shot.jpg");
+  background-image: url("./../images/cinematic-shot-2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -160,7 +165,7 @@ a, a:hover {
   margin: 1em 0 1em 0;
 }
 
-#myHugeFace > div {
+#myHugeFace * {
   color: white;
   text-shadow: 3px 3px 5px black;
 }
