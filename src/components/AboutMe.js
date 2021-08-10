@@ -14,8 +14,8 @@ export default class AboutMe extends React.Component {
     render() {
         return (
             <div className="about-me">
-                <div className="about-me-container">
-                    <h1 className="some-text-at-the-top">
+                <div className="skills-container">
+                    <h1 className="grid-1">
                         About Me
                     </h1>
 
