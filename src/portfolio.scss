@@ -7,27 +7,63 @@ $primary-darker: #1ED760;
 $light-shadow: 5px 5px 20px rgba(255, 255, 255, 0.25);
 $dark-shadow: 5px 5px 20px rgba(0, 0, 0, 0.75);
 
+/* Smaller Phone Size */
+@media (min-width: 320px) {
+  .skills {
+    display: grid;
+    grid-template-columns: auto;
+    grid-column-gap: 1em;
+  }
+
+  .nav-content {
+    display: none;
+  }
+}
+
+/* Phone Size */
 @media (min-width: 425px) {
   .skills {
     display: grid;
     grid-template-columns: auto;
     grid-column-gap: 1em;
   }
+
+  .nav-content {
+    display: none;
+  }
 }
 
+/* Tablet Size */
 @media (min-width: 768px) {
   .skills {
     display: grid;
     grid-template-columns: auto auto;
     grid-column-gap: 1em;
   }
+
+  .nav-content {
+    display: none;
+  }
 }
 
+/* Desktop Size */
 @media (min-width: 1440px) {
   .skills {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-column-gap: 1em;
+  }
+
+  .nav-content {
+    display: flex;
+    width: 350px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .hamburger {
+    display: none;
   }
 }
 
@@ -62,14 +98,6 @@ a {
 
 .navbar, .navbar * {
   color: $dark;
-}
-
-.nav-content {
-  display: flex;
-  width: 350px;
-  padding: 10px;
-  align-items: center;
-  justify-content: space-evenly;
 }
 
 .landing-page {
@@ -157,6 +185,17 @@ a {
   height: 150px;
 }
 
+.hamburger {
+  margin: 0 32px;
+}
+
+.hamburger-lines {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
 .download-cv {
   width: 250px;
   display: flex;
@@ -177,7 +216,7 @@ a {
 }
 
 .container {
-	display: flex;
-	justify-content: center;
-	margin: auto;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }

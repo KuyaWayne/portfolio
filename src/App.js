@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import LandingPage from './pages/LandingPage';
+import Navbar from './components/Navbar.jsx';
+import LandingPage from './pages/LandingPage.jsx';
 import './portfolio.scss';
 
 export default class App extends React.Component {

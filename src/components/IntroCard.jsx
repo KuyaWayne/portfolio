@@ -15,7 +15,7 @@ export default class IntroCard extends React.Component {
                     </div>
 
                     <div className="short-bio">
-                        <i>"I do not fear the man who knows 1000 styles of punch, I fear the man who practiced 1 punch 1000 times."</i> - Bruce Lee
+                        <i>"I wanna be the very best like no one ever was."</i> - Pokemon Theme Song
                     </div>
 
                     <div className="intro-buttons">
