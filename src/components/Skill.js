@@ -7,7 +7,7 @@ export default class Skill extends React.Component {
                 <div className="img-container">
                     <img src={this.props.image} alt={this.props.title} className="skill-image"/>
                 </div>
-
+                
                 <h3>{this.props.title}</h3>
             </div>
         )
